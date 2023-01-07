@@ -197,3 +197,117 @@ button.banner-btn {
     color: #3e3a32;
     margin-bottom: 10px;
 }
+
+/* my failures css */
+
+.failures-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 0px 140px;
+    margin-left: 65px;
+}
+
+.failures-img img {
+    width: 290px;
+}
+
+.failures-text {
+    margin-top: 112px;
+    margin-left: 90px;
+}
+
+.failures-text ul li {
+    list-style: none;
+}
+
+.failures-text h1 {
+    font-size: 20px;
+    width: 170px;
+    margin-bottom: 10px;
+}
+
+.failures-text p {
+    font-size: 11px;
+    width: 260px;
+    color: #767065;
+}
+
+.failures-text ul {
+    margin-top: 12px;
+}
+
+.failures-text ul li {
+    font-size: 11px;
+    line-height: 15px;
+    color: #0a0907;
+}
+
+.failures-text ul li i {
+    font-size: 10px;
+    color: #001fff;
+}
+
+/* my plans css */
+
+section.my-plans h1 {
+    text-align: center;
+    margin-top: 70px;
+    font-size: 30px;
+}
+
+.plans-wrapper {
+    margin: 0px 140px;
+    display: flex;
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+    justify-content: center;
+}
+
+.single-plans {
+    margin: 0px 40px;
+}
+
+.single-plans img {
+    width: 40px;
+    margin-bottom: 10px;
+}
+
+.single-plans h2 {
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.single-plans span {
+    color: #4c473d;
+}
+
+/* gradiner section css */
+
+.gradient-section{  
+    margin-bottom: 50px;
+}
+
+.gradient-wrapper {
+    border-radius: 4px;
+    margin: 0px 140px;
+    background-image: linear-gradient(to left,#ffc90400,#e5681f),url(image/watch.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 25px;
+}
+
+.gradient-wrapper h1 {
+    color: white;
+    width: 285px;
+    margin-bottom: 10px;
+}
+
+.gradient-wrapper button {
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-weight: bold;
+    color: black;
+}
